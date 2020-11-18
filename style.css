@@ -1,0 +1,97 @@
+*{
+	padding:0;
+	margin:0;
+}
+.wrapper{
+	background: url(../HTML/Images/Elaine_Wang.jpg) no-repeat;
+	background-size:cover;
+	height:100vh;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.logo{
+    width:50px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Roboto', sans-serif;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: coral;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: courier new;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: courier new;
+	text-align: center;
+}
+.textwrap{
+	float:right;
+	margin:30px;
+}
+.pos{
+	text-align: center;
+}
+@keyframes sepia-filter-animation{
+	from{
+		filter: sepia(0%);
+	}
+	to{
+		filter: sepia(50%);
+	}
+}
+img{
+    height:300px;
+	transition: height 2s, filter 1s;
+}
+img:hover{
+	height:305px;
+	animation: sepia-filter-animation 2s;
+}
+.font{
+	font-family: cursive;
+}
+.bold{
+	font-family:cursive;
+	font-weight: bold;
+}
+.bigger{
+	font-size: 20px;
+}
