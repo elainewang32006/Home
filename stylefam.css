@@ -3,7 +3,7 @@
 	margin:0;
 }
 .wrapper{
-	background: url(../HTML/Images/family.jpg) no-repeat;
+	background: url(Images/family.jpg) no-repeat;
 	background-size:cover;
 	height:100vh;
 }
